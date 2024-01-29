@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-container .link-container {
+    /* border: 2px solid red; */
+    display:flex;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    width: 450px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-container .link-container > button {
+    width: 80;
+    padding: 10px 30px 10px 30px;
+    margin-left: 20px;
+    box-shadow: 0px 4px 8px 0px rgba(0,28,56,0.15);
+    border-radius: 3px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    background: rgb(28, 188, 255);
+    border: 0;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+/* Start of the next section  */
+.master-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-container p {
+    border: 2px solid red;
+    text-align: center;
+    font-family: "Caveat", handwriting;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 140%;
+    font-size: 2.25rem;
+    color: rgb(29, 46, 59);
+}
+
+.top-container h1 {
+    border: 2px solid red;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: 140%;
+    font-size: 6rem;
+    color: rgb(29, 46, 59);
+}
+/* End of the next section  */

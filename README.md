@@ -1,1 +1,2 @@
 # click-page
+This website layout was created as part of a coding exercise to improve my skills in website design. I used the layout of www.clickfunnels.com, as it appeared on January 29, 2024, as a model for this practice project. The design is not originally mine; I replicated their layout to better understand and gain practical experience with CSS Flexbox.
